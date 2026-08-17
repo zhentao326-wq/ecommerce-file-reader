@@ -1,0 +1,23 @@
+{
+  "name": "ecommerce-file-reader",
+  "version": "1.0.0",
+  "description": "读取工作区中的电商文件（图片 / Excel / CSV / PDF / TXT / MD），返回结构化内容。",
+  "entry": "main.py",
+  "language": "python",
+  "tools": [
+    {
+      "name": "read_file",
+      "description": "读取指定文件路径并返回结构化内容",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "file_path": {
+            "type": "string",
+            "description": "要读取的文件路径（相对于工作区的相对路径或绝对路径）"
+          }
+        },
+        "required": ["file_path"]
+      }
+    }
+  ]
+}
