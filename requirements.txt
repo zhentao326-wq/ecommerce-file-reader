@@ -1,0 +1,11 @@
+# 图片读取（jpg/jpeg/png/webp 尺寸与格式）
+Pillow>=10.0.0
+
+# Excel 读取（.xlsx）
+openpyxl>=3.1.0
+
+# Excel 读取（.xls，xlrd 2.x 仅支持旧版 .xls 格式）
+xlrd>=2.0.1
+
+# PDF 读取（页数与文本提取）
+pypdf>=4.0.0
